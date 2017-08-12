@@ -2,23 +2,23 @@ body {
 	margin: 0 auto;
 	padding: 0 auto;
 	font-family: 'Lato', serif;
-	background-color: white;
+	background-color: #1d2731;
 	font-weight: 300;
+	color: #efefef;
 }
 
 header {
 	text-align: right;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #21C2F9;
+	background-color: #369CCD;
 	font-family: 'Lato', sans-serif;
 	font-style: thin;
-	color: white;
 	text-transform: uppercase;
 }
 
 #name-container {
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-right: 30px;
 }
 
@@ -29,46 +29,87 @@ header {
 
 #last-name {
 	font-weight: 100;
-	color: #C9EFF2;
 }
 
 #identity {
 	margin: 0;
 	font-weight: 300;
 	font-size: 0.8em;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 #mid-profile {
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 20px;
 	width: 50%;
 	text-align: center;
 }
 
 #mid-profile img {
 	display: block;
-	width: 40%;
+	max-width: 20%;
 	margin: auto;
 }
 
+.gold {
+	color: #e2c029;
+}
+
+.sky-blue {
+	color: #369CCD;
+}
+
 p {
-	color: #2d3c49;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #featured-work {
-	padding-left: 30px;
+	padding: 0 30px;
 }
 
-#featured-work h2 {
-	font-weight: 300;
-	color: #21C2F9;
+h2 {
+	font-weight: 400;
+	color: #e2c029;
 	margin: 0;
+	margin-bottom: 20px;
 }
 
 .project-entry {
 	width: 33.3%;
 	float: left;
+	text-align: center;
+	margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+	.project-entry {
+		width: 100%;
+		float: none;
+		padding: 20px 0px;
+	}
+}
+
+h3 {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.project-entry img {
+	max-width: 90%;
+}
+
+a {
+	text-decoration: none;
+	color: #e2c029;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .clear {
@@ -76,7 +117,9 @@ p {
 }
 
 footer {
-	padding-left: 30px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 
