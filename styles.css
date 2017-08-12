@@ -12,7 +12,6 @@ header {
 	width: 100%;
 	margin: 0 auto;
 	background-color: #369CCD;
-	font-family: 'Lato', sans-serif;
 	font-style: thin;
 	text-transform: uppercase;
 }
@@ -71,7 +70,6 @@ p {
 
 h2 {
 	font-weight: 400;
-	color: #e2c029;
 	margin: 0;
 	margin-bottom: 20px;
 }
@@ -121,8 +119,3 @@ footer {
 	padding-bottom: 20px;
 	text-align: center;
 }
-
-
-
-
-
