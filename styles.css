@@ -99,6 +99,19 @@ h3 {
 
 .project-entry img {
 	max-width: 90%;
+	-webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.project-entry img:hover {
+	-webkit-transform:scale(1.05); /* Safari and Chrome */
+	-moz-transform:scale(1.05); /* Firefox */
+	-ms-transform:scale(1.05); /* IE 9 */
+	-o-transform:scale(1.05); /* Opera */
+	 transform:scale(1.05);
 }
 
 a {
