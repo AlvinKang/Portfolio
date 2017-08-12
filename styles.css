@@ -1,0 +1,85 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'Lato', serif;
+	background-color: white;
+	font-weight: 300;
+}
+
+header {
+	text-align: right;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #21C2F9;
+	font-family: 'Lato', sans-serif;
+	font-style: thin;
+	color: white;
+	text-transform: uppercase;
+}
+
+#name-container {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+#name {
+	margin: 0;
+	font-weight: 900;
+}
+
+#last-name {
+	font-weight: 100;
+	color: #C9EFF2;
+}
+
+#identity {
+	margin: 0;
+	font-weight: 300;
+	font-size: 0.8em;
+	padding-bottom: 15px;
+}
+
+#mid-profile {
+	margin: auto;
+	padding-top: 30px;
+	width: 50%;
+	text-align: center;
+}
+
+#mid-profile img {
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+
+p {
+	color: #2d3c49;
+}
+
+#featured-work {
+	padding-left: 30px;
+}
+
+#featured-work h2 {
+	font-weight: 300;
+	color: #21C2F9;
+	margin: 0;
+}
+
+.project-entry {
+	width: 33.3%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	padding-left: 30px;
+}
+
+
+
+
+
