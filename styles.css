@@ -1,30 +1,27 @@
 body {
-	margin: 0 auto;
-	padding: 0 auto;
+	background-color: #1D2731;
+	color: #EFEFEF;
 	font-family: 'Lato', serif;
-	background-color: #1d2731;
 	font-weight: 300;
-	color: #efefef;
+	margin: 0 auto;
 }
 
 header {
-	text-align: right;
-	width: 100%;
-	margin: 0 auto;
 	background-color: #369CCD;
-	font-style: thin;
+	margin: 0 auto;
+	text-align: right;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 #name-container {
 	padding-top: 3px;
-	padding-right: 20px;
 }
 
 #name {
-	margin: 0;
-	font-weight: 900;
 	font-size: 1.7em;
+	font-weight: 900;
+	margin: 0;
 }
 
 #last-name {
@@ -32,28 +29,28 @@ header {
 }
 
 #identity {
-	margin: 0;
-	font-weight: 300;
 	font-size: 0.7em;
+	font-weight: 300;
+	margin: 0;
 	padding-bottom: 6px;
 }
 
 #mid-profile {
+	font-size: 0.9em;
 	margin: 0 auto;
 	padding-top: 20px;
-	width: 50%;
 	text-align: center;
-	font-size: .9em;
+	width: 50%;
 }
 
 #mid-profile img {
 	display: block;
-	max-width: 90%;
 	margin: auto;
+	max-width: 90%;
 }
 
 .gold {
-	color: #e2c029;
+	color: #E2C029;
 }
 
 .sky-blue {
@@ -61,68 +58,56 @@ header {
 }
 
 p {
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.1em;
 	letter-spacing: 0.5px;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 #featured-work {
-	padding: 0px 40px 10px 40px;
-	margin: -25px 0px;
+	margin: -25px 0;
+	padding: 0 40px 10px 40px;
 }
 
 h2 {
-	font-weight: 300;
-	margin-top: 40px;
-	margin-bottom: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
 	font-size: 1.2em;
+	font-weight: 300;
+	margin: 40px 5% 20px 5%;
 }
 
 .project-entry {
-	width: 33.3%;
 	float: left;
-	text-align: center;
 	margin: 0;
+	text-align: center;
+	width: 33.3%;
 }
-
 
 h3 {
 	font-size: 1.6em;
-	text-transform: uppercase;
 	font-weight: 200;
 	margin: 0;
 	padding-bottom: 10px;
+	text-transform: uppercase;
 }
 
 .git-logo {
-	width: 16px;
 	height: 16px;
 	padding-right: 3px;
+	width: 16px;
 }
 
 .screenshot {
 	max-width: 90%;
-	-webkit-transition: all .5s ease; /* Safari and Chrome */
-    -moz-transition: all .5s ease; /* Firefox */
-    -ms-transition: all .5s ease; /* IE 9 */
-    -o-transition: all .5s ease; /* Opera */
     transition: all .5s ease;
 }
 
 .screenshot:hover {
-	-webkit-transform:scale(1.03); /* Safari and Chrome */
-	-moz-transform:scale(1.03); /* Firefox */
-	-ms-transform:scale(1.03); /* IE 9 */
-	-o-transform:scale(1.03); /* Opera */
-	 transform:scale(1.03);
+	 transform: scale(1.03);
 }
 
 a {
+	color: #EFEFEF;
+	font-size: 0.9em;
 	text-decoration: none;
-	color: #efefef;
-	font-size: .9em;
 }
 
 a:hover {
@@ -130,7 +115,7 @@ a:hover {
 }
 
 .git-link {
-	color: #e2c029;
+	color: #E2C029;
 }
 
 .clear {
@@ -143,16 +128,17 @@ footer {
 	text-align: center;
 }
 
-
+/* Breakpoint for smaller viewport */
 @media screen and (max-width: 1000px) {
 	.project-entry {
-		width: 100%;
 		float: none;
-		margin: 10px 0px;
-		padding: 20px 0px;
+		margin: 10px 0;
+		padding: 20px 0;
+		width: 100%;
 	}
+
 	#featured-work {
-		padding: 20px 0px 10px 0px;
+		padding: 20px 0 10px 0;
 	}
 
 	h2 {
@@ -160,7 +146,7 @@ footer {
 		text-align: center;
 	}
 
-	footer{
+	footer {
 		padding-bottom: 10px;
 	}
 }
