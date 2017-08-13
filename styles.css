@@ -1,13 +1,13 @@
 body {
-	background-color: #1D2731;
-	color: #EFEFEF;
+	background-color: #1d2731;
+	color: #efefef;
 	font-family: 'Lato', serif;
 	font-weight: 300;
 	margin: 0 auto;
 }
 
 header {
-	background-color: #369CCD;
+	background-color: #369ccd;
 	margin: 0 auto;
 	text-align: right;
 	text-transform: uppercase;
@@ -51,11 +51,11 @@ header {
 }
 
 .gold {
-	color: #E2C029;
+	color: #e2c029;
 }
 
 .sky-blue {
-	color: #369CCD;
+	color: #369ccd;
 }
 
 p {
@@ -106,7 +106,7 @@ h3 {
 }
 
 a {
-	color: #EFEFEF;
+	color: #efefef;
 	font-size: 0.9em;
 	text-decoration: none;
 }
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .git-link {
-	color: #E2C029;
+	color: #e2c029;
 }
 
 .clear {
