@@ -97,7 +97,13 @@ h3 {
 	padding-bottom: 10px;
 }
 
-.project-entry img {
+.git-logo {
+	width: 16px;
+	height: 16px;
+	padding-right: 3px;
+}
+
+.screenshot {
 	max-width: 90%;
 	-webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
@@ -106,21 +112,25 @@ h3 {
     transition: all .5s ease;
 }
 
-.project-entry img:hover {
-	-webkit-transform:scale(1.05); /* Safari and Chrome */
-	-moz-transform:scale(1.05); /* Firefox */
-	-ms-transform:scale(1.05); /* IE 9 */
-	-o-transform:scale(1.05); /* Opera */
-	 transform:scale(1.05);
+.screenshot:hover {
+	-webkit-transform:scale(1.03); /* Safari and Chrome */
+	-moz-transform:scale(1.03); /* Firefox */
+	-ms-transform:scale(1.03); /* IE 9 */
+	-o-transform:scale(1.03); /* Opera */
+	 transform:scale(1.03);
 }
 
 a {
 	text-decoration: none;
-	color: #e2c029;
+	color: #efefef;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+.git-link {
+	color: #e2c029;
 }
 
 .clear {
@@ -129,6 +139,6 @@ a:hover {
 
 footer {
 	margin-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	text-align: center;
 }
