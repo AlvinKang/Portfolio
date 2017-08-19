@@ -6,6 +6,7 @@ body {
 	margin: 0 auto;
 }
 
+/* Header */
 header {
 	background-color: #369ccd;
 	margin: 0 auto;
@@ -41,6 +42,7 @@ header {
 	padding-bottom: 6px;
 }
 
+/* Mid profile content */
 .mid-profile {
 	font-size: 0.9em;
 	margin-top: 20px;
@@ -70,6 +72,7 @@ p {
 	letter-spacing: 0.5px;
 }
 
+/* Projects */
 h2 {
 	font-size: 1.2em;
 	font-weight: 300;
@@ -113,6 +116,7 @@ a:hover {
 	color: #efefef;
 }
 
+/* Footer */
 .footer {
   position: absolute;
   bottom: 5px;
@@ -120,7 +124,7 @@ a:hover {
   text-align: center;
 }
 
-/* Break point for responsivity*/
+/* Break point for responsivity */
 @media (max-width: 991px) {
 	h2 {
 		font-size: 2em;
